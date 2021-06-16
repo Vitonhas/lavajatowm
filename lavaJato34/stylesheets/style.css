@@ -1,0 +1,177 @@
+*{
+    font: 22px ;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    
+  }
+  
+  body, ul, li{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1rem;
+    text-decoration: none;
+    overflow-x: hidden;
+  }
+  
+  .primary-color{
+    color: #e7052d;
+  }
+  
+  .secondary-color{
+    color: #111016;
+  }
+  
+  .white-color{
+    color: #FFF;
+  }
+  
+  a {
+    font-family: "Roboto", sans-serif;
+    color: #111016;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  a:hover{
+    color: #e7052d;
+  }
+  
+  .nav-color{
+    background-color: #FFF;
+    box-shadow: 0px 1px 5px #111016;
+  }
+  
+  
+  .item{
+    padding: 0px 10px;
+  }
+  
+  .dropdown{
+    display: none;
+  }
+  
+  .mobile-menu{
+    font-size: 20px;
+  }
+  
+  .dropdown-items{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-items li{
+    padding: 0 2rem 0;
+    line-height: 2rem;
+  }
+  
+  .logo img{
+    width: 80px;
+  }
+  
+  .presentation{
+    margin: 20vh auto 6vh;
+  }
+  
+  .presentation-title{
+    color: #e7052d;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .presentation-text{
+    color: #111016;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .presentation-logo{
+    max-width: 350px;
+  }
+  
+  .slider{
+    border-top:solid #e7052d 4px;
+    border-bottom:solid #e7052d 4px;
+  }
+  
+  .slider-text{
+    font-weight: 400;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .text-bottom{
+    display: none;
+  }
+  
+  .slider-margin{
+    margin: 0 0 0 auto;
+    padding: 0;
+    width: 700px;
+  }
+  
+  .price-item{
+    border: solid #e7052d 2px;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .price-item .card-img-top{
+    max-width: 100%;
+  }
+  
+  .staff-item{
+    background-color: #eee;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .staff-item:hover{
+    background-color: #e7052d;
+  }
+  
+  .staff-item:hover .staff-img-border{
+    border: solid #eee 4px;
+  }
+  
+  .staff-item:hover  .primary-color{
+    color: #eee;
+  }
+  
+  .staff-img-border{
+    border: solid #e7052d 4px;
+  }
+  
+  .icons{
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .footer-text{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  
+  .footer-text a:hover{
+    color: #111016;
+  }
+  
+  .map-border{
+    border: solid #e7052d 2px;
+    border-radius: 12px;
+  }
+  
+  #sobre, #precos, #contato{
+    padding-bottom: 110px;
+  }
+  
+  

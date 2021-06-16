@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lava Jato da 34</title>
+    <link rel="icon" type="image/png" href="/images/logo_3.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Fontawesome Emojis -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/responsive.css' />
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand nav-color">
+        <div class="container-fluid">
+          <div class="logo">
+            <a href="#">
+            <img src="/images/logo_3.png"alt="Logo Lava Jato da 34">
+            </a>
+          </div>
+          <div class="d-flex menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item item">
+                <a href="#" class="nav-link">INÍCIO</a>
+              </li>
+              <li class="nav-item item">
+                <a href="#sobre" class="nav-link">SOBRE</a>
+              </li>
+              <li class="nav-item item">
+                <a href="#precos" class="nav-link">PREÇOS</a>
+              </li>
+              <li class="nav-item item">
+                <a href="#contato" class="nav-link">CONTATO</a>
+              </li>
+            </ul>
+            <div class="dropdown">
+              <div onclick="dropdown()">
+                <i class="fa fa-bars mobile-menu"></i>
+              </div>
+            
+              <nav class="menu-dropdown">
+                <ul class="dropdown-items">
+                  <li>
+                    <a href="#" onclick="dropdown()">INÍCIO</a>
+                  </li>
+                  <li>
+                    <a href="#sobre" onclick="dropdown()">SOBRE</a>
+                  </li>
+                  <li>
+                    <a href="#precos" onclick="dropdown()">PREÇOS</a>
+                  </li>
+                  <li>
+                    <a href="#contato" onclick="dropdown()">CONTATO</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Presentation start -->
+    <div class="container-fluid presentation">
+      <div class="d-flex flex-wrap">
+        <div class="col-8 mx-auto mt-5">
+        <p class="presentation-title py-3">Você é de Jardim Primavera e tá precisando lavar seu veículo?</p>
+        <p class="presentation-text">Venha para o Lava Jato WM, seu carro ou moto vai sair daqui brilhando parecendo novo e você extremamente satisfeito com o nosso serviço.</p>  
+        </div>
+        <div class= "presentation-logo m-auto">
+          <img class="w-100" src="/images/presentation.png" alt="Logo Lava Jato WM">
+        </div>
+      </div>
+    </div>
+    <!-- Presentation end -->
+
+    <!-- Slider start -->
+    <div id="sobre"></div>
+  <div class="slider d-flex my-5 flex-wrap">
+    <div class="col-5 m-auto slider-top">
+      <h4 class="secondary-color slider-text">Dê uma olhada em alguns exemplos do nosso serviço, oferecemos a melhor lavagem da região e com um preço super barato.</h4>
+      <div class="text-top pt-5">
+        <h4 class="primary-color slider-text">Siga o Lava Jato WM no Instagram, estaremos sempre postando novidades e demonstrações no Instagram.</h4>
+        <div class="text-center">
+          <a href="https://www.instagram.com/lavajatoda34/" target="_blank" class="fa fa-instagram icons primary-color"><h4 class="slider-text primary-color">@lavajatoda34</h4></a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="carouselExampleIndicators" class="carousel slide slider-margin col-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        
+        
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/slide_1.jpeg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slide_2.jpeg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slide_3.jpeg" class="d-block w-100" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slide_4.jpeg" class="d-block w-100" alt="Slide 4">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slide_5.jpeg" class="d-block w-100" alt="Slide 5">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slide_6.jpeg" class="d-block w-100" alt="Slide 6">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slide_7.jpeg" class="d-block w-100" alt="Slide 7">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="col-11 text-bottom pt-5 mx-auto">
+      <h4 class="primary-color slider-text">Siga o Lava Jato da 34 no Instagram, estaremos sempre postando novidades e lavagens no Instagram.</h4>
+      <div class="text-center">
+        <a href="https://www.instagram.com/lavajatoda34/" target="_blank" class="fa fa-instagram icons primary-color"><h4 class="slider-text primary-color">Lava Jato da 34</h4></a>
+      </div>
+    </div>
+  </div>
+    <!-- Slider end -->
+
+    <!-- Pricing start -->
+    <div id="precos"></div>
+    <div class="container-fluid">
+      <h1 class="primary-color text-center">Preços</h1>
+      <div class="row px-3">
+        <div class="d-flex justify-content-around mx-auto flex-wrap p-5">
+          <div class="card price-item my-3 px-3">
+              <img src="/images/car.png" alt="carro" class="card-img-top">
+            <div class="card-body price-text">
+              <h3 class="primary-color text-center">Carro</h3>
+              <h3 class="primary-color text-center">R$ 20</h3>
+            </div>
+          </div>
+          <div class="card price-item my-3 px-3">
+              <img src="/images/moto.png" alt="moto" class="card-img-top">
+            <div class="card-body price-text">
+              <h3 class="primary-color text-center">Moto</h3>
+              <h3 class="primary-color text-center">R$ 10</h3>
+            </div>
+          </div>
+          <div class="card price-item my-3 px-3">
+            <img src="/images/minibus.png" alt="carro" class="card-img-top">
+            <div class="card-body price-text">
+              <h3 class="primary-color text-center">Van</h3>
+              <h3 class="primary-color text-center">R$ 40</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing end -->
+
+    <!-- Staff start-->
+    <div id="contato"></div>
+    <div class="container-fluid">
+      <h1 class="primary-color text-center">Contato</h1>
+      <div class="row px-3">
+        <div class="d-flex justify-content-around mx-auto flex-wrap p-5">
+          <div class="card staff-item my-3 px-3">
+              <img src="/images/lucas.png" alt="Wendell" class="card-img-top rounded-circle staff-img-border m-2">
+            <div class="card-body price-text mx-auto">
+              <h3 class="primary-color text-center">Wendell</h3>
+              <a href="https://api.whatsapp.com/send?phone=5521974242483" target="_blank" class="fa fa-whatsapp icons primary-color px-3"></a>
+              <a href="https://www.instagram.com/wendelldesouzapinheiro/" target="_blank" class="fa fa-instagram icons primary-color px-3"></a>
+            </div>
+          </div>
+          <div class="card staff-item my-3 px-3">
+            <img src="/images/manoel.png" alt="Manoel" class="card-img-top rounded-circle staff-img-border m-2">
+            <div class="card-body price-text mx-auto">
+              <h3 class="primary-color text-center">Manoel</h3>
+              <a href="https://api.whatsapp.com/send?phone=5521990201192" target="_blank" class="fa fa-whatsapp icons primary-color px-3"></a>
+              <a href="https://www.instagram.com/manoeljunior487/" target="_blank" class="fa fa-instagram icons primary-color px-3"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Staff end -->
+
+    <footer>
+      <nav class="navbar navbar-expand-lg nav-color">
+        <div class="container justify-content-center">
+          <div class="w-100">
+            <h1 class="text-center primary-color">Onde nos encontrar?</h1>
+              <iframe class="map-border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29449.606537250667!2d-43.25924751638993!3d-22.68356706812509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99738c3bfa974b%3A0xaa22648d2ae9ddc8!2sR.%20Carmo%2C%2034%20-%20Jardim%20Santa%20Rita%2C%20Duque%20de%20Caxias%20-%20RJ%2C%2025212-330!5e0!3m2!1spt-BR!2sbr!4v1618790265038!5m2!1spt-BR!2sbr" width="100%" height="350" allowfullscreen="" loading="lazy"></iframe>
+            <div class="footer-text text-center">
+                <li class="primary-color">Endereço: <a class="primary-color" href="https://www.google.com/maps/place/R.+Carmo,+34+-+Jardim+Santa+Rita,+Duque+de+Caxias+-+RJ,+25212-330/@-22.684036,-43.259508,13z/data=!4m2!3m1!1s0x99738c3bfa974b:0xaa22648d2ae9ddc8?hl=pt-BR&gl=BR" target="_blank">R. Carmo, 34 - Jardim Santa Rita Duque de Caxias - RJ </a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<!-- Dropdown JS -->
+<script src="javascripts/dropdown.js"></script>
